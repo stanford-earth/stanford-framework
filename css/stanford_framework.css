@@ -1,0 +1,436 @@
+/* THEME OPTIONS ************************** */
+
+
+/* GLOBAL ********************************* */
+/* ----- Custom Fonts ---------------- */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,300italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic);
+
+/* ----- Body ------------------------ */
+body {font-family:"Source Sans Pro", Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0.01em; line-height: 1.4em;}
+
+/* ----- Text ------------------------ */
+h1, h2, h3, h4, h5, h6 {font-weight: normal; color: #820000;}
+h1 {font-size: 36px; margin: 0; line-height:1em; padding:0;}
+h1.title {margin-bottom:0.5em;}
+h2, #nav {font-size: 18px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase; line-height: 1em; font-weight:normal; letter-spacing:0.02em;}
+h3 {font-size: 16px; margin: 0 0 0.3em 0; text-transform: uppercase; font-weight: bold;}
+h4 {font-size: 14px; margin: 0 0 0.5em 0; text-transform: uppercase;}
+h5 {font-size: 12px; font-weight: bold; margin: 0 0 0.5em 0;}
+h6 {font-size: 10px; font-weight: bold; margin: 0 0 0.5em 0;}
+.content h2 {border-bottom: medium none; font-size: 22px; font-weight: 600; margin-top: 1.4em; text-transform: none; line-height:1.2em;}
+.content .views-row h2 {margin-top:0px; padding: 0;}
+.content .postcard-left h2, .content .postcard-left-wrap h2, .content .postcard-right h2, .content .postcard-right-wrap h2 {margin-top:0px;}
+.content h3 {color: #3f3c30; font-size: 18px; letter-spacing: 0.01em; text-transform: none;}
+.content h4 {color: #565347; font-size: 16px; font-weight:600; text-transform:none; letter-spacing: 0.01em; margin-bottom: 0.4em; margin-top: 1em;}
+.content h5 {color: #565347; font-size: 14px; font-weight:600; text-transform:none; letter-spacing: 0.02em;}
+.content h6 {color: #565347; font-size: 13px; font-weight:600; text-transform:none; letter-spacing: 0.04em;}
+#content-body .content h2:first-child, #content-body .content h3:first-child, #content-body .content h4:first-child {margin-top:0;}
+h1.title {}
+.descriptor {color:#585754;}
+.descriptor .field-content:last-child {margin-bottom:0.8em;} /* for views when you have more than one descriptor field-content */
+.caption {color:#8a887d; margin-bottom: 0;}
+.caption p {margin-bottom:0px;}
+.group-s-postcard-image {margin-bottom:1em;}
+
+body.cke_show_borders h2, body.cke_show_borders h3 { text-transform: none !important; }
+
+/* ----- Links ----------------------- */
+a {color: #827252;}
+a:hover {color: #2e2d29;}
+.more-link a, a.more-link, .page-search .node-readmore a {color: #827252; background-image: url("../images/more-link-arrows.png"); font-weight: 600; letter-spacing: 0.03em;}
+.more-link a:hover, a.more-link:hover, .page-search .node-readmore a:hover {color:#9d9573; text-decoration:none; background-image: url("../images/more-link-arrows.png");}
+h2 a, h3 a {color: #820000;}
+h2 a:hover, h3 a:hover {color: #2e2d29;}
+
+/* ----- Lists ----------------------- */
+ul li, ul li.leaf {list-style-type:square; list-style-image: url("../images/bullet.gif");}
+ul.nav li, ul.nav li.leaf  {list-style-image: none; list-style-type: none;}
+
+/* ----- Tables ---------------------- */
+table {margin: 0 0 1em 0; width: 100%; border: 0px;}
+thead, thead th {background: #8c1515;}
+thead th {color: #ffffff; font-weight: bold; text-transform: uppercase; padding: 1em 2em 1em 1em; border-top: 1px solid #8C1515; border-left: 1px solid #8C1515; border-right: 1px solid #8C1515;}
+thead th a:link, thead th a:visited {border-bottom: 1px dotted; color: #EEE6CB;}
+thead th a:hover {color:white; border-color:white;}
+thead th.active a img {padding-left: 5px;}
+tbody {border: 0px;}
+tr.even, tr.odd {border: none; padding: 0;}
+tr.odd {background:#f8f7f4;}
+tr.even {background: #f2f1eb;}
+td {padding: 1em 2em 1em 1em;}
+tr.odd td.active {background: #eae9e6;}
+tr.even td.active {background: #eae9e6;}
+
+/* ----- Forms ----------------------- */
+/* bootstrap override color */
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #e3e2de; border-color:#d5d0c0;}
+
+/* STANFORD BRAND BARS ******************** */
+
+/* ----- Global Header --------------- */
+#global-header {font-family:"Source Sans Pro", Arial, Helvetica, sans-serif; color: #fff; padding: 0; font-size: 1.1em; background-color:#8c1515;
+-webkit-box-shadow: inset 0px -4px 8px -2px rgba(0, 0, 0, .2);
+-moz-box-shadow: inset 0px -4px 8px -2px rgba(0, 0, 0, .2);
+box-shadow: inset 0px -4px 8px -2px rgba(0, 0, 0, .2);
+}
+#global-header .container {padding:4px 0 0 0; height:26px;}
+#global-header img {width:153px; height:22px;}
+
+/* ----- Global Footer --------------- */
+#global-footer {font-family:"Source Sans Pro", Arial, Helvetica, sans-serif; padding: 0; background-color: #8c1515; color: #E3DFD5; font-size: 15px; line-height: 1em; padding: 30px 0 0 0; width: auto; height: 90px;
+-webkit-box-shadow: inset 0px 4px 8px -2px rgba(0, 0, 0, .2);
+-moz-box-shadow: inset 0px 4px 8px -2px rgba(0, 0, 0, .2);
+box-shadow: inset 0px 4px 8px -2px rgba(0, 0, 0, .2);
+}
+#global-footer img {width:105px; height:49px;}
+
+#bottom-menu a, #bottom-menu .tel {color: #E3DFD5; text-decoration:none;}
+#bottom-menu a:hover {color: #ffffff; text-decoration:none;}
+#bottom-menu ul {margin: 0; padding: 5px 0 0 0px; line-height: 1em;}
+#bottom-menu ul li {float: left; list-style: none; margin: 0 20px 0 0; padding: 0;}
+#bottom-menu ul li:last-child {margin: 0;}
+#copyright {margin-top: -20px;}
+p.vcard {font-size: 13px;}
+
+/* ----- Sticky Global Footer --------------- */
+html, body {height: 100%; /* The html and body elements cannot have any padding or margin. */}
+/* Wrapper for page content to push down footer */
+#wrap {min-height: 100%; height: auto !important; height: 100%; /* Negative indent footer by it's height */ margin: 0 auto -90px auto;}
+/* Set the fixed height of the push div */
+#push {height: 90px;}
+body.admin-menu {height: calc(100% - 29px);}
+
+/* HEADER ********************************* */
+/* ----- Header Region --------------- */
+#header .container {position: relative;}
+
+/* ----- Search Box ------------------ */
+/* ----- Logo ------------------------ */
+#header #logo {display: table-cell; padding: 0 10px 0 0; vertical-align: bottom; margin:0; float:none; border-right:1px solid #2E2D29;}
+#header #logo img {max-width: 180px;}
+#header #logo.site-logo {border: none;}
+
+/* ----- Site Title and Slogan ------- */
+#name-and-slogan {display: table-cell; padding: 0 0 0 10px; vertical-align: bottom; height:auto;}
+#site-name, #site-title-first-line, #site-title-second-line {font-size:30px; color: #3f3c30; font-weight:400; letter-spacing: -0.02em; line-height: 1.2em; }
+#site-name a, #site-name a:hover, #site-title-first-line a, #site-title-first-line a:hover, #site-title-second-line a, #site-title-second-line a:hover {color: #3f3c30; text-decoration:none;}
+#site-name, #site-title-first-line {margin-bottom: -4px; margin-top: -6px;}
+#site-title-second-line, #site-slogan {margin-bottom: -7px; margin-top: 4px;}
+#site-slogan {font-size:20px; color: #3f3c30; line-height: 1.2em; font-style: italic;}
+
+#site-title-first-line.site-title-uppercase {text-transform: uppercase; font-weight: bold; font-size: 36px; margin-bottom: -6px;}
+#site-title-second-line.site-title-underneath {position: absolute; left: 0px; bottom: 0px; line-height:1.3em;}
+#wrap.site-title-underneath #header .container {position: relative; padding-bottom: 40px;}
+
+/* NAVIGATION ***************************** */
+
+/* ----- Admin Shortcuts -------- */
+#admin-shortcuts {background: #4D4F53; margin: 0px; padding: 3px 10px;}
+#admin-shortcuts .nav {margin: 0; padding: 0;}
+#admin-shortcuts .content a {background: #4D4F53; color: #fff; padding: 3px 10px;}
+#admin-shortcuts .content a:hover, #admin-shortcuts .block a:active {background: #222; border-radius: 5px;}
+#admin-shortcuts .content > ul > li > a:hover, #admin-shortcuts .content > ul > li > a:active {background: #222; border-radius: 10px;}
+#admin-shortcuts .content ul {background: #4D4F53;}
+#admin-shortcuts .content ul li {display: inline-block; margin: 0;}
+#admin-shortcuts .content ul ul li {display: block;}
+#admin-shortcuts .content ul ul a {padding: 3px 20px;}
+#admin-shortcuts .content .caret {border-bottom-color: #fff; border-top-color: #fff;}
+
+/* ----- Top Menu -------------------- */
+#top-menu h2, #top-menu h3 {display: none;}
+#top-menu .content {text-align: right;}
+#top-menu .content p {margin: 0;}
+#top-menu .content a {color: #E3DFD5;}
+#top-menu .content a:hover {color: #fff;}
+#top-menu .content ul {float: right; display: block; margin: 0; padding: 0; line-height: 1em;}
+#top-menu .content ul ul {display: none;}
+#top-menu .content ul li {display: inline; list-style: none; margin: 0; padding: 0 0 0 1em;}
+#top-menu .content ul li.last {border: none;}
+#top-menu .content form {margin: 0;}
+#top-menu .content #user-login-form {text-align: right;}
+#top-menu .content #block-webauth-webauth-login-block {text-align: right;}
+
+/* ----- Main Navigation ------------- */
+#main-menu {margin-bottom: 30px;}
+.not-front #main-menu {margin-bottom:45px;}
+nav {}
+nav ul li {list-style-image: none; list-style-type: none;}
+.navbar .nav > li > a {}
+.navbar .nav > li > a:hover, .navbar .nav > li > a:active {}
+
+/* Dropdown Menu */
+.dropdown-menu li {display:block;}
+.dropdown-menu li > a {color: #8c1515;}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {background-color: #f2f1eb; background-image: linear-gradient(to bottom, #f2f1eb, #f2f1eb); background-repeat: repeat-x; color: #8c1515; text-decoration: none; background: #f2f1eb;}
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {background-color: #f2f1eb; background-image: linear-gradient(to bottom, #f2f1eb, #f2f1eb); background-repeat: repeat-x; color: #8c1515; outline: 0 none; text-decoration: none; background: #f2f1eb;}
+
+/* ----- Breadcrumbs ----------------- */
+.breadcrumb {font-size: 11px; background-color: transparent; background-image: -moz-linear-gradient(center top , transparent, transparent); background-repeat: repeat-none; border: 0px solid transparent; border-radius: 0px; box-shadow: 0 0 0 transparent inset; list-style: none outside none; margin: 0px 0px 20px 0px; padding: 0px;}
+
+/* ----- #Main Block Menu Behavior --- */
+#main .caret {display:none;}
+#main .dropdown {}
+#main .dropdown-menu {border:none; box-shadow:none; float:none; margin:0; min-width:inherit; position:inherit; left:inherit; z-index: auto;}
+#main .dropup, #main .dropdown {}
+#main .dropdown-submenu > a:after {content: none;}
+#main .expanded ul, #main .expanded ul ul {margin-left: 0px; padding-left: 20px;}
+#main ul.nav > li > a {color: #8C1515; padding:3px 0 3px 0;}
+#main ul.nav > li > a:hover, #main .dropdown-menu li > a:hover, #main .dropdown-menu li > a:focus, #main .dropdown-submenu:hover > a {color:black; background-color:transparent;}
+#main li.active-trail ul {display:block;}
+
+/* ----- Sidebar menu blocks --------- */
+.sidebar ul.nav, .sidebar ul.menu li {margin-left:0;}
+.sidebar li.expanded {}
+
+/* ----- First Sidebar Menu Blocks --- */
+#sidebar-first .block-menu, #sidebar-first .block-menu-block {text-transform: uppercase;}
+#sidebar-first .block-menu h2, #sidebar-first .block-menu-block h2 {border: none; font-size: 15px; font-weight: bold; margin: 0; padding: 5px 0 15px;}
+#sidebar-first .block-menu ul.menu, #sidebar-first .block-menu-block ul.menu {margin: 0; padding: 0; list-style: none;}
+#sidebar-first .block-menu ul.menu li, #sidebar-first .block-menu-block ul.menu li {margin: 0; list-style: none; font-size: 13px; font-weight: 600; letter-spacing: 0.03em; padding:0;}
+#sidebar-first .block-menu ul.menu li a, #sidebar-first .block-menu-block ul.menu li a {display: block; border-top: 1px solid #e9e6df; padding: 12px 0 12px 15px; color:#827252;}
+#sidebar-first .block-menu ul.menu > li.last a, #sidebar-first .block-menu-block ul.menu > li.last a {border-bottom: 1px solid #e9e6df;}
+#sidebar-first .block-menu ul.menu li a:hover, #sidebar-first .block-menu ul.menu a.active-trail, #sidebar-first .block-menu-block ul.menu li a:hover, #sidebar-first .block-menu-block ul.menu a.active-trail {background-color:#fbfbf9; color:#2E2D29;}
+#sidebar-first .block-menu ul.menu li.active-trail ul, #sidebar-first .block-menu-block ul.menu li.active-trail ul {background-color:#fbfbf9;}
+#sidebar-first .block-menu ul.menu li ul, #sidebar-first .block-menu-block ul.menu li ul {padding:0 0 15px 15px;}
+#sidebar-first .block-menu ul.menu li ul li a, #sidebar-first .block-menu-block ul.menu li ul li a {border: medium none; font-weight: normal; padding: 3px 0 3px 15px; text-transform: none;}
+#sidebar-first .block-menu ul.menu li ul li a:hover, #sidebar-first .block-menu ul.menu li ul li a.active-trail, #sidebar-first .block-menu-block ul.menu li ul li a:hover, #sidebar-first .block-menu-block ul.menu li ul li a.active-trail {color:#2e2d29;}
+#sidebar-first .block-menu > h2 a, #sidebar-first .block-menu-block > h2 a {color: #827252;}
+#sidebar-first .block-menu > h2 a:hover, #sidebar-first .block-menu-block > h2 a:hover {color: #2E2D29;}
+
+/* ----- Second Sidebar Menu Blocks -- */
+/* ----- Admin Menu ------------------ */
+/* ----- Pager Nav ------------------- */
+ul.pager {}
+ul.pager li {margin:0;}
+ul.pager li a {background-color: #f2f1eb; border-radius: 6px; border: 0px; padding: 4px 10px;}
+ul.pager li a:hover, ul.pager li.pager-current {background-color:#e3dfd5; color:black;}
+ul.pager li.pager-current {border-radius: 6px; border: 0px; padding: 4px 10px; margin: 0 0.5em;}
+
+/* SIDEBARS ******************************* */
+
+/* FOOTER ********************************* */
+/* ----- Fat Footer ------------------ */
+#footer {background: #f2f1eb; padding: 0 0 50px 0;}
+#footer .block {border-top:1px solid #DAD5CB; margin-top:30px;}
+#footer h2 {font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; font-size: 13px; margin: 0 0 0.8em 2px; padding-top: 10px;}
+#footer ul li a, #footer ul li a.active {color:#827252;}
+#footer h2 a {color:#820000;}
+#footer ul {font-size: 12px; margin: 0; margin-left:2px;}
+#footer ul li {list-style: none outside none; margin: 0 0 0.6em; padding:0; line-height:1em;}
+#footer ul li a:hover, #footer h2 a:hover {color:#2e2d29;}
+#footer .nav > li > a:hover {background-color:transparent;}
+
+/* CONTENT ******************************** */
+.node .submitted { color: #8A887D;}
+.region-content {margin-bottom:30px;}
+#content-head {margin-bottom:0px;}
+.node-teaser {margin-bottom:1em;}
+
+/* VIEWS ********************************** */
+/* ----- Search Results -------------- */
+.page-search div.node-teaser {border-top:1px solid #e6e4db; margin-bottom:30px; padding-top: 10px;}
+.page-search div.ds-search-extra {margin-bottom:15px;}
+.page-search div.node-teaser h2 {margin-top:15px; font-size:16px;}
+.page-search div.node-teaser h2 a {font-size: 22px;}
+.page-search div.node-teaser ul.links {margin:0;}
+.page-search div.node-teaser ul.links li {padding:0;}
+
+
+/* CONTAINERS ***************************** */
+/* ----- Blocks ---------------------- */
+.sub-block h2 {font-size:15px; font-weight:bold; letter-spacing:0.02em;}
+
+/* ----- Wells ----------------------- */
+.well {border: none; box-shadow:none; border-radius: 0px; border-bottom: 1px solid #d5d2c5; background: #f2f1eb; padding: 10px 25px 20px 25px;}
+#sidebar-second .well-sidebar-only, #sidebar-first .well-sidebar-only {border: none; box-shadow:none; border-radius: 0px; border-bottom: 1px solid #d5d2c5; background: #f2f1eb; padding: 10px 25px 20px 25px;}
+#sidebar-second .well-sidebar-only h2, #sidebar-first .well-sidebar-only h2 {border:medium none;}
+
+/* ----- Callouts and Blockquotes ---- */
+blockquote p {font-size: 16px; font-weight: 300; line-height: 1.4em; margin-bottom: 0.5em; color:black;}
+blockquote h3 {margin-bottom:0.5em;}
+.topline, .bracket {border-top: 1px solid #e6e4db;}
+.bracket {border-bottom: 1px solid #e6e4db;}
+.callout {border: 1px solid #e6e4db;}
+.credits {color: #B3B3B3; font-size: 10px; font-style: normal; letter-spacing: 0.02em; text-transform: uppercase;}
+
+/* ----- Pullquote Text -------------- */
+
+
+/* POSTCARD LAYOUTS ********************** */
+
+
+/* IMAGES ******************************** */
+#main .border-hairline img {border:1px solid #dad5cb;}
+#main .border-underline img {border-bottom:4px solid #E3DFD5;}
+#main .border-bottom img {border-bottom:1px solid #c7c2b1;}
+#main .border-simple-nowidth img, 
+#main .border-simple img {background-color: #E3DFD5;}
+#main .border-simple a:hover img {background-color: #d9d4c6;}
+#main .border-hairline a:hover img {border:1px solid #d9d4c6;}
+
+
+/* ICONS ********************************* */
+
+
+/* HELPER CLASSES ************************ */
+/* ----- Style ----------------------- */
+/* ----- Positioning ----------------- */
+/* ----- Sizing ---------------------- */
+
+
+/* GENERAL OVERRIDES ********************* */
+/* ----- Bootstrap Overrides --------- */
+/* ----- Field Collection Overrides -- */
+/* ----- Field Label Overrides ------- */
+
+
+/* STANFORD FEATURES OVERRIDES *********** */
+/* ----- Views Slideshow ------------- */
+/* ----- Banner Image Slideshow ------ */
+.banner-overlay {height: auto; position: absolute;}
+.banner-overlay > div {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75); color: #F2F1EB; position: relative; margin-left: 6px; max-width: 60%; padding: 10px; top: -140px;}
+.banner-overlay p {display: inline; margin-right: 15px; font-size: 12px;}
+.banner-overlay-caption {font-size: 16px; line-height: 1em; margin-bottom: 8px;}
+
+/* ----- Stanford Events Importer ---- */
+.view-stanford-events-list label {display: inline-block; width: 15%; margin: 0 2% 0 0; vertical-align: top; text-align: right; font-weight: bold; color: #666;}
+.view-stanford-events-list .field-content {display: inline-block; width: 80%; vertical-align: top;}
+.view-stanford-events-list .views-field-title .field-content {width: auto;}
+.view-stanford-events-list .views-row {margin: 0 0 1em 0; padding: 1em;}
+.view-stanford-events-list .views-row .views-field-title {margin: 0 0 1em 0;}
+.view-stanford-events-list .views-row .views-field-title a {font-size: 1.5em; font-weight: bold;}
+.view-stanford-events-list .views-row-odd {border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; background: #eee;}
+
+/* ----- Stanford Events Views ------- */
+/* ----- Stanford Courses ------------ */
+.field-field-stanford-course-code .field-label {display: inline-block; width: 30%; padding: 0 0 1em 0;}
+.field-field-stanford-course-code .field-items {display: inline-block;}
+.field-field-stanford-course-subject .field-label {display: inline-block; width: 30%; padding: 0 0 1em 0;}
+.field-field-stanford-course-subject .field-items {display: inline-block;}
+.field-field-stanford-course-year .field-label {display: inline-block; width: 30%; padding: 0 0 1em 0;}
+.field-field-stanford-course-year .field-items {display: inline-block;}
+.field-field-stanford-course-course-id .field-label {display: inline-block; width: 30%; padding: 0 0 1em 0;}
+.field-field-stanford-course-course-id .field-items {display: inline-block;}
+.field-field-stanford-course-tag-org .field-label {display: inline-block; width: 30%; padding: 0 0 1em 0;}
+.field-field-stanford-course-tag-org .field-items {display: inline-block;}
+.field-field-stanford-course-tag-org .field-item {display: inline-block; margin: 0 1em 0 0;}
+.field-field-stanford-course-tag-name .field-label {display: inline-block; width: 30%; padding: 0 0 1em 0;}
+.field-field-stanford-course-tag-name .field-items {display: inline-block;}
+.field-field-stanford-course-tag-name .field-item {display: inline-block; margin: 0 1em 0 0;}
+
+
+/* ADMINISTRATION ************************ */
+/* ----- Admin ----------------------- */
+div.error { background-position: 10px 15px; background-repeat: no-repeat; border-color: #ED541D; min-height: 24px; padding: 10px 10px 10px 45px;}
+.nav-tabs > li > a:hover {border-color: #DDDDDD; background-color:#F2F1EB;}
+#main ul.nav-tabs > li > a {padding:5px 15px;}
+#main ul.nav-tabs > li > a:hover {background-color:#F2F1EB;}
+#main .nav-tabs > .active > a, #main .nav-tabs > .active > a:hover {background-color:white;}
+
+/* ----- User Block ------------------ */
+
+
+/* MEDIA QUERIES ************************* */
+/* ----- Responsive ------------------ */
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+nav ul li {display: inline-block;}
+.navbar-inner {background-color: transparent; background-image: none; background-repeat: no-repeat; border: none; border-radius: 0px; box-shadow: none; min-height: 0px; padding-left: 0px; padding-right: 0px;}
+.navbar .nav > li > a {color: #8C1515; text-transform: uppercase; margin: 0 5px 0 0; padding: 4px 8px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;float: none; text-decoration: none; text-shadow: none;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {background-color: #f2f1eb; box-shadow: none; color: #8C1515; text-decoration: none;}
+.navbar .nav > li > a:hover, .navbar .nav > li > a:active {color: #8C1515; background-color: #f2f1eb; text-decoration:none;}
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {background-color: #f2f1eb; color: #8C1515;}
+.navbar .nav > li > ul.dropdown-menu {text-transform:none; letter-spacing:0;}
+.navbar .nav > li > ul.dropdown-menu > li {display:block;}
+.navbar .nav > li > ul.dropdown-menu > li > a {color: #8c1515;}
+.navbar .nav > li > ul.dropdown-menu > li > a:hover {background-color: #f2f1eb; color: #8c1515;}
+.navbar .nav > li > .dropdown-menu:after, .navbar .nav > li > .dropdown-menu:before {display:none;}
+}
+
+@media (min-width: 980px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+/* Mobile Styles */
+@media (max-width:300px) {
+#nav-search input {width:100px; font-size:12px;}
+}
+@media (max-width: 480px) {
+/* Header */
+#name-and-slogan {padding: 0px;}
+#header #logo {display: none; border: none; text-align: left;}
+#header #logo.logo-mobile {display: block; margin-bottom: 10px;}
+#site-name, #site-slogan {text-align: left;}
+#site-slogan {font-size: 16px; line-height: 20px;}
+#header #logo img {}
+#site-name, #site-title-first-line, #site-title-second-line {font-size:24px;}
+/* Main Menu */
+.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {padding: 5px 10px;}
+
+/* Banner Overlay */
+.banner-overlay {position:inherit; }
+.banner-overlay > div {position: inherit; margin:0px; max-width:100%;}
+}
+
+@media (max-width: 640px) {	
+/* Top Menu */
+#top-logo {clear: both;}
+#top-menu {margin: 1em 0 0 0;}
+#top-menu .content ul {float: left; display: inline; margin: 0; padding: 0 1em 0 0;}
+#top-menu .content ul li {margin: 0; padding: 0 1em 0 0;}
+#top-menu .content ul ul {display: none;}
+
+/* Tables */
+th, th.views-field {display: inline-block; padding: 5px 10px;}
+td, td.views-field {display: inline-block; padding: 5px 10px;}
+td.views-field.active {display: block;}
+td p {margin: 0px;}
+
+/* Stanford Events Importer */
+.view-stanford-events-list label {width: 30%;}
+.view-stanford-events-list .field-content {width: 65%;}
+
+}
+
+@media (max-width: 767px) {	
+body {padding: 0;}
+.container {padding-left: 10px; padding-right: 10px;}
+#global-header .container {padding-left: 10px; padding-right: 10px;}
+#global-footer {margin: 0px; padding-bottom: 10px; width: auto; height: auto;}	
+#bottom-logo {display: block; float: left; width: 49%; margin-right: 2%; padding-top: 30px; text-align: center;}
+#bottom-menu {display: block; float: left; width: 49%; margin-right: 0;}
+#bottom-menu ul {margin-bottom: 25px;}
+#bottom-menu ul li {float: none;}
+#copyright {margin-top: 0;}
+p.vcard {margin: 0; padding: 0; text-align: center;}
+#wrap.site-title-underneath #site-title-second-line {padding-left: 10px;}
+
+#top-menu {max-width:50% !important; float:right; margin-top:-23px}
+/* Main Menu */
+#main-menu ul.menu li {display:block;}
+.navbar-inner {background: none repeat scroll 0 0 #F2F1EB; border:none; box-shadow:none; padding: 5px 10px 2px 10px;}
+#nav-search{margin-top:0px;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {background-color:white; box-shadow:none;}
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {background-color:white;}
+.nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover {background-color:white; color: #8c1515;}
+.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a, .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {color: #8c1515; text-transform: none; margin-bottom: 5px;}
+.btn.btn-navbar {background: none repeat scroll 0 0 #8c1515; border: medium none; box-shadow: none;}
+.btn.btn-navbar:hover {background-color:#585754;}
+.navbar .btn-navbar .icon-bar {box-shadow:none;}
+}
+
+@media (max-width: 979px) {
+#site-name, #site-title-first-line, #site-title-second-line {font-size:24px; margin-bottom:-4px;}
+}
+
+/* ----- Print ----------------------- */
+@media print {
+body {background-color: transparent !important; background: none !important;}
+body.searchbox #header #site, #header #site {max-width: 78% !important;}
+#top-menu, #search, #navigation-primary, #navigation-secondary, #tabs-wrapper, #global-footer {display: none !important;}
+}
